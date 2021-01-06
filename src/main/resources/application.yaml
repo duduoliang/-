@@ -1,0 +1,23 @@
+spring:
+  thymeleaf:
+    cache: false
+  redis:
+    password:
+    host: 127.0.0.1            #服务器地址
+    port: 6379                #服务器端口
+#  datasource:
+#    username: root
+#    password: root
+#    url: jdbc:mysql://localhost:3306/st?useUnicode=true&characterEncoding=utf8
+#    driver-class-name: com.mysql.jdbc.Driver
+#    type: com.alibaba.druid.pool.DruidDataSource
+
+#    database: 1
+
+server:
+  port: 80
+#公众号参数配置
+wx:
+  gz:
+    appid: wxb1d31b9ec58de57f
+    secret: b69d4f094b26a0a80792ec8a5f2bf297
